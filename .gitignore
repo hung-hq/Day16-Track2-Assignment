@@ -16,6 +16,7 @@ terraform.rc
 # SSH Keys
 lab-key
 lab-key.pub
+lab-key-from-bastion
 
 # Environment Variables
 .env

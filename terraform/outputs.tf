@@ -8,7 +8,7 @@ output "alb_dns_name" {
 }
 
 output "endpoint_url" {
-  value = "http://${aws_lb.ai_alb.dns_name}/v1/completions"
+  value = "http://${aws_lb.ai_alb.dns_name}/health"
 }
 
 output "gpu_private_ip" {
